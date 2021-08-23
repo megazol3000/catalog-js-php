@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+@font-face {
+    font-family: "SegoeUI-Light";
+    font-display: swap;
+    src: url("fonts/SegoeUI-Light.woff") format("woff"), url("fonts/SegoeUI-Light.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "SegoeUI";
+    font-display: swap;
+    src: url("fonts/SegoeUI.woff") format("woff"), url("fonts/SegoeUI.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SegoeUI-Semibold";
+    font-display: swap;
+    src: url("fonts/SegoeUI-SemiBold.woff") format("woff"), url("fonts/SegoeUI-SemiBold.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SegoeUI-Bold";
+    font-display: swap;
+    src: url("fonts/SegoeUI-Bold.woff") format("woff"), url("fonts/SegoeUI-Bold.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.articles, .desc, .card {
+    display: flex;
+}
+
+.list{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1240px;
+    margin-left: -620px;
+    height: 1754px;
+    background: rgba(0, 0, 0, 0.041);
+    border-bottom: 1px solid red;
+}
+.list2{
+    display: block;
+    position: absolute;
+    top: 1754px;
+    left: 50%;
+    width: 1240px;
+    margin-left: -620px;
+    height: 1754px;
+    background: rgba(0, 0, 0, 0.041);
+    border-bottom: 1px solid red;
+}
+.list3{
+    display: block;
+    position: absolute;
+    top: 3508px;
+    left: 50%;
+    width: 1240px;
+    margin-left: -620px;
+    height: 1754px;
+    background: rgba(0, 0, 0, 0.041);
+    border-bottom: 1px solid red;
+}
+
+
+.card {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #fff;
+    padding: 25px;
+    align-content: flex-start;
+    margin-top: 45px;
+  }
+
+  .card-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100%;
+      width: 730px;
+      margin-top: -12px;
+  }
+
+  .card-img {
+      min-width: 400px;
+      height: auto;
+      margin-right: 40px;
+  }
+
+  .desk-img {
+      min-width: 180px;
+      background-position: center;
+  }
+
+  .desc {
+      min-height: 80px;
+      background: #0091d0;
+      align-self: flex-end;
+      width: 100%;
+      justify-content: space-between;
+      font-size: 22px;
+      font-family: "SegoeUI-Semibold";
+      padding: 20px 30px;
+      color: #fff;
+  }
+
+  .desk-text {
+      padding-right: 40px;
+  }
+
+  .euro-articles {
+      width: 80%;
+      text-align: right;
+  }
+
+  .articles {
+      justify-content: space-between;
+      font-size: 30px;
+      color: #da252b;
+  }
+
+  .turkish-articles {
+      font-family: "SegoeUI-Bold";
+  }
+
+  .euro-articles {
+      font-family: "SegoeUI-Semibold";
+  }
+
+  .articles, .names {
+      margin-bottom: 25px;
+  }
+
+  .names {
+      font-family: "SegoeUI";
+      font-size: 30px;
+      color: #00577c;
+  }
+
+  .post {
+      margin-bottom: 12px;
+  }
+
+  .posts {
+      line-height: 32px;
+  }
